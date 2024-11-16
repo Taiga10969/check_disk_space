@@ -15,3 +15,7 @@ bash run_check.sh
 このコマンドの実行により，`./check_log/{実行日時}`のファイルが作成され，その中に，`check_log_{実行日時}_warnings.txt`と`check_log_{実行日時}.log`が保存されます．<br>
 `check_log_{実行日時}_warnings.txt`が実際に使用率の警告閾値(default=85%)を超えるサーバーのipアドレスとディレクトリ名が一覧で保存されます．<br>
 `check_log_{実行日時}.log`には，各サーバーのdfコマンドの結果が保存されます．<br>
+
+## 警告の与え方の例
+生成された`check_log_{実行日時}_warnings.txt`の中身をコピーしてサーバー管理の連絡チャンネルなどに共有するなどして，サーバー利用者に周知することができます．
+![check_disk_space](https://github.com/user-attachments/assets/3d685e47-d527-455f-ba29-b397c1dc4bac)
