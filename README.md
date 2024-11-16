@@ -1,5 +1,10 @@
 # check_disk_space
 このレポジトリは研究室内のサーバー管理で，各サーバーのdisk spaceを調べて容量が少ない場合に警告を与えるためのテキストを生成するソースコードです．<br>
+## 環境構築
+```
+cd check_disk_space
+pip install -r requirements.txt
+```
 ## 使用方法
 以下のコマンドを実行することでdisk spaceの調査を行い，警告を与えるためのテキストを生成します．
 ```
